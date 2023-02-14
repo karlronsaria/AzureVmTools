@@ -1,0 +1,19 @@
+# ImageName - For the list of VM templates, run  13_AzureVMTemplate_List.bat .
+
+# StorageAccountName - For the list of storage accounts, run  12_AzureStorageAccount_List.bat .
+#                      To create a new storage account, run  18_AzureStorageAccount_Create.bat .
+
+# ServiceName - For the list of cloud services, run  11_AzureCloudService_List.bat .
+#               To create a new cloud service, run  17_AzureCloudService_Create.bat .
+
+# InstanceSize Choices: ExtraSmall, Small, Medium, Large, ExtraLarge
+# (See VMRoleSizes_Reference.txt.)
+
+
+ImageName          = fb83b3509582419d99629ce476bcb5c8__SQL-Server-2012-SP2-11.0.5537.0-Std-ENU-Win2012-cy14su08;
+StorageAccountName = newstorage;
+ServiceName        = NewService;
+VMName             = NewVM;
+InstanceSize       = Medium;
+AdminUsername      = wwuser;
+Password           = Wonderware777

@@ -1,0 +1,17 @@
+
+Source: https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-size-specs/
+
+
+STANDARD TIER: A-series
+-----------------------
+
+Size                      CPU cores      Memory    NICs (Max)    Max. disk size        Max. data disks         Max. IOPS
+                                                                                        (1023 GB each)    (500 per disk)
+----------------------    ---------    --------    ----------    ------------------    ---------------    --------------
+Standard_A0\ExtraSmall    1              768 MB    1             Temporary =  20 GB                  1             1x500
+Standard_A1\Small         1             1.75 GB    1             Temporary =  70 GB                  2             2x500
+Standard_A2\Medium        2             3.50 GB    1             Temporary = 135 GB                  4             4x500
+Standard_A3\Large         4             7.00 GB    2             Temporary = 285 GB                  8             8x500
+Standard_A4\ExtraLarge    8            14.00 GB    4             Temporary = 605 GB                 16            16x500
+Standard_A5               2            14.00 GB    1             Temporary = 135 GB                  4             4X500
+Standard_A6               4            28.00 GB    2             Temporary = 285 GB                  8             8x500
